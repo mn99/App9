@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">App9</string>
+
+    //activity_main.xml
+    <string name="search">Search</string>
+
+    //navigation.xml
+    <string name="notes">Notes</string>
+    <string name="labels">Labels</string>
+    <string name="deleted">Deleted</string>
+    <string name="archived">Archived</string>
+    <string name="settings">Settings</string>
+
+    //BaseNote.kt
+    <string name="empty_note">Empty note</string>
+    <string name="empty_list">Empty list</string>
+
+    //notes.xml
+    <string name="share">Share</string>
+    <string name="pin">Pin</string>
+    <string name="delete">Delete</string>
+    <string name="archive">Archive</string>
+
+    //deleted.xml
+    <string name="restore">Restore</string>
+    <string name="delete_forever">Delete forever</string>
+
+    //archived.xml
+    <string name="unarchive">Unarchive</string>
+
+    //MainHelperActivity.kt
+    <string name="delete_note_forever">Delete note forever?</string>
+    <string name="cancel">Cancel</string>
+    <string name="unpin">Unpin</string>
+
+    //BaseNoteModel.kt
+    <string name="saved_to_device">Saved to device</string>
+
+    //styles.xml
+    <string name="pinned">Pinned</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+
+    //activity_take_note.xml
+    <string name="note">Note</string>
+
+</resources>
