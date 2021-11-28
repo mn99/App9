@@ -44,4 +44,91 @@
     //activity_take_note.xml
     <string name="note">Note</string>
 
+    //NoteFragment.kt
+    <string name="make_list">Make list</string>
+    <string name="take_note">Take note</string>
+    <string name="export">Export</string>
+    <string name="more_options">More options</string>
+
+    //TakeNote.kt
+    <string name="saved_to_database">Saved to Database</string>
+
+    //formatting.xml
+    <string name="bold">Bold</string>
+    <string name="link">Link</string>
+    <string name="italic">Italic</string>
+    <string name="monospace">Monospace</string>
+    <string name="strikethrough">Strikethrough</string>
+    <string name="clear_formatting">Clear formatting</string>
+
+    //arrays.xml
+    <string name="edit">Edit</string>
+    <string name="open_link">Open link</string>
+    <string name="room" translatable="false">Room</string>
+    <string name="pretty_time" translatable="false">Pretty Time</string>
+    <string name="material_components_android" translatable="false">Material Components for Android</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="follow_system">Follow system</string>
+    <string name="darkKey" translatable="false">dark</string>
+    <string name="lightKey" translatable="false">light</string>
+    <string name="followSystemKey" translatable="false">followSystem</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="listKey" translatable="false">list</string>
+    <string name="gridKey" translatable="false">grid</string>
+    <string name="none">None</string>
+    <string name="relative">Relative</string>
+    <string name="absolute">Absolute</string>
+    <string name="noneKey" translatable="false">none</string>
+    <string name="relativeKey" translatable="false">relative</string>
+    <string name="absoluteKey" translatable="false">absolute</string>
+
+    //TakeNote.kt
+    <string name="cant_open_link">Can\'t open link</string>
+
+    //recycler_list_item.xml
+    <string name="item">Item</string>
+    <string name="drag_handle">Drag Handle</string>
+
+    //activity_make_list.xml
+    <string name="add_item">Add Item</string>
+
+    //LabelsFragment.kt
+    <string name="add_label">Add label</string>
+    <string name="label_exists">Label exists</string>
+    <string name="delete_label">Delete label?</string>
+    <string name="your_notes_associated">Your notes associated with this label will not be deleted</string>
+    <string name="edit_label">Edit label</string>
+    <string name="save">Save</string>
+
+    //DeletedFragment.kt
+    <string name="delete_all_notes">Delete all notes?</string>
+
+    //delete_all.xml
+    <string name="delete_all">Delete all</string>
+
+    //SettingsFragment.kt
+    <string name="githubKey" translatable="false">github</string>
+    <string name="rateKey" translatable="false">rate</string>
+    <string name="librariesKey" translatable="false">libraries</string>
+    <string name="libraries">Libraries</string>
+    <string name="maxItemsToDisplayInListKey" translatable="false">maxItemsToDisplayInList</string>
+    <string name="maxLinesToDisplayInNoteKey" translatable="false">maxLinesToDisplayInNote</string>
+
+    //settings.xml
+    <string name="appearance">Appearance</string>
+    <string name="view">View</string>
+    <string name="theme">Theme</string>
+    <string name="date_format">Date format</string>
+    <string name="content_density">Content density</string>
+    <string name="max_items_to_display">Max items to display in list</string>
+    <string name="max_lines_to_display">Max lines to display in note</string>
+    <string name="backup">Backup</string>
+    <string name="export_backup">Export backup</string>
+    <string name="import_backup">Import backup</string>
+    <string name="about">About</string>
+    <string name="github" translatable="false">GitHub</string>
+    <string name="rate">Rate this app</string>
+
 </resources>

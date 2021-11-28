@@ -3,4 +3,9 @@
 
     //activity_main.xml
     <color name="FABRipple">#80FFFFFF</color>
+
+    //make_list.xml
+    <color name="Grey100">#F5F5F5</color>
+    <color name="LightBlue500">#03A9F4</color>
+
 </resources>

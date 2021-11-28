@@ -1,0 +1,60 @@
+package com.example.app9
+
+import android.os.Bundle
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.View
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
+
+class DeletedFragment : MainHelperFragment() {
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setHasOptionsMenu(true)
+    }
+
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.DeleteAll) {
+            confirmDeletionOfAllNotes()
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.delete_all, menu)
+    }
+
+
+    private fun confirmDeletionOfAllNotes() {
+        MaterialAlertDialogBuilder(requireContext())
+            .setMessage(R.string.delete_all_notes)
+            .setPositiveButton(R.string.delete) { dialog, which ->
+                model.deleteAllBaseNotes()
+            }
+            .setNegativeButton(R.string.cancel, null)
+            .show()
+    }
+
+    private fun confirmDeletionOfSingleNote(baseNote: BaseNote) {
+        MaterialAlertDialogBuilder(requireContext())
+            .setMessage(R.string.delete_note_forever)
+            .setPositiveButton(R.string.delete) { dialog, which ->
+                model.deleteBaseNoteForever(baseNote)
+            }
+            .setNegativeButton(R.string.cancel, null)
+            .show()
+    }
+
+
+    override fun getBackground() = R.drawable.delete
+
+    override fun getObservable() = model.deletedNotes
+
+    override fun showOperations(baseNote: BaseNote) {
+        val restore = Operation(R.string.restore, R.drawable.restore) { model.restoreBaseNote(baseNote.id) }
+        val deleteForever = Operation(R.string.delete_forever, R.drawable.delete) { confirmDeletionOfSingleNote(baseNote) }
+        showMenu(restore, deleteForever)
+    }
+}

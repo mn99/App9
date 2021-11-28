@@ -7,6 +7,7 @@ import android.print.PostPDFGenerator
 import android.text.Html
 import android.widget.Toast
 import androidx.core.content.edit
+import androidx.core.text.toHtml
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.room.withTransaction

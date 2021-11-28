@@ -14,6 +14,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.activity.viewModels
+import androidx.core.widget.addTextChangedListener
 import com.example.app9.databinding.ActivityTakeNoteBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
@@ -57,7 +58,7 @@ class TakeNote : MainHelperActivity() {
             model.title = title
         }
 
-        Toast.makeText(this, R.string.saved_to_notally, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, R.string.saved_to_database, Toast.LENGTH_SHORT).show()
     }
 
 

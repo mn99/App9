@@ -67,4 +67,7 @@ dependencies {
     //SharedDao.kt
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.0"
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-RC'
+
+    //build
+    implementation 'androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0'
 }
