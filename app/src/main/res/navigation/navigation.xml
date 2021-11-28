@@ -44,16 +44,16 @@
 
     <fragment
         android:id="@+id/Settings"
-        android:name="com.omgodse.notally.fragments.Settings"
+        android:name="com.example.app9.SettingsFragment"
         android:label="@string/settings" />
 
     <fragment
         android:id="@+id/Search"
-        android:name="com.omgodse.notally.fragments.Search" />
+        android:name="com.example.app9.SearchFragment" />
 
     <fragment
         android:id="@+id/DisplayLabel"
-        android:name="com.omgodse.notally.fragments.DisplayLabel"
+        android:name="com.example.app9.DisplayLabelFragment"
         android:label="{SelectedLabel}" />
 
 </navigation>

@@ -70,4 +70,7 @@ dependencies {
 
     //build
     implementation 'androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0'
+
+    //SettingsFragment.kt
+    implementation 'androidx.preference:preference-ktx:1.1.1'
 }

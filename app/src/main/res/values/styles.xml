@@ -52,4 +52,70 @@
         <item name="android:textAppearance">?attr/textAppearanceBody2</item>
     </style>
 
+    //AndroidManifest.xml
+    <style name="AppTheme" parent="Base.AppTheme">
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorSecondary">@color/LightBlue500</item>
+    </style>
+
+    //styles.xml
+    <style name="Base.AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">?attr/colorSurface</item>
+        <item name="colorPrimaryDark">?attr/colorSurface</item>
+        <item name="android:colorEdgeEffect">?attr/colorSecondary</item>
+
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="textAppearanceButton">@style/TextAppearance.Button</item>
+        <!-- Menu Items, EditTexts, Dialog Titles -->
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Subtitle1</item>
+
+        <!-- Required for the Settings page to look good -->
+        <item name="android:textAppearanceListItem">?attr/textAppearanceBody1</item>
+        <item name="android:textAppearanceListItemSecondary">?attr/textAppearanceBody2</item>
+
+        <item name="toolbarStyle">@style/Toolbar</item>
+        <item name="chipGroupStyle">@style/ChipGroup</item>
+
+        <item name="alertDialogTheme">@style/AlertDialog</item>
+        <item name="materialAlertDialogTheme">@style/AlertDialog</item>
+    </style>
+
+    //styles.xml
+    <style name="TextAppearance.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    //styles.xml
+    <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.Toolbar</item>
+    </style>
+
+    //styles.xml
+    <style name="ChipGroup" parent="Widget.MaterialComponents.ChipGroup">
+        <item name="chipSpacingVertical">8dp</item>
+    </style>
+
+    //styles.xml
+    <style name="AlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">?attr/colorSecondary</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/AlertDialog.Title</item>
+    </style>
+
+    //styles.xml
+    <style name="TextAppearance.Toolbar" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    //styles.xml
+    <style name="AlertDialog.Title" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    //AndroidManifest.xml
+    <style name="MainActivity" parent="AppTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
 </resources>

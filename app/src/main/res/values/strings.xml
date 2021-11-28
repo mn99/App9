@@ -131,4 +131,8 @@
     <string name="github" translatable="false">GitHub</string>
     <string name="rate">Rate this app</string>
 
+    //SettingsFragment.kt
+    <string name="exportBackupKey" translatable="false">exportBackup</string>
+    <string name="importBackupKey" translatable="false">importBackup</string>
+
 </resources>
