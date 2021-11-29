@@ -135,4 +135,30 @@
     <string name="exportBackupKey" translatable="false">exportBackup</string>
     <string name="importBackupKey" translatable="false">importBackup</string>
 
+    //settings.xml
+    <string name="viewKey" translatable="false">view</string>
+    <string name="themeKey" translatable="false">theme</string>
+    <string name="dateFormatKey" translatable="false">dateFormat</string>
+    <string name="four" translatable="false">4</string>
+    <string name="eight" translatable="false">8</string>
+
+    //BaseNoteViewHolder.kt
+    <string name="one_more_item">1 more item</string>
+    <string name="more_items">%1$d more items</string>
+
+    //MainHelperFragment.kt
+    <string name="pdf" translatable="false">PDF</string>
+    <string name="txt" translatable="false">TXT</string>
+    <string name="xml" translatable="false">XML</string>
+    <string name="json" translatable="false">JSON</string>
+    <string name="html" translatable="false">HTML</string>
+    <string name="something_went_wrong">Something went wrong. Please try again.</string>
+    <string name="view_file">View file</string>
+    <string name="save_to_device">Save to device</string>
+    <string name="view_note">View note…</string>
+    <string name="share_note">Share note…</string>
+
+    //add_label.xml
+    <string name="create_new">No labels yet. Create one?</string>
+
 </resources>

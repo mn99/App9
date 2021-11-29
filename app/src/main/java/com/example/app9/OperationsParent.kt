@@ -6,6 +6,8 @@ import android.content.Intent
 import android.text.InputType
 import android.view.LayoutInflater
 import androidx.core.util.forEach
+import com.example.app9.databinding.AddLabelBinding
+import com.example.app9.databinding.DialogInputBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 interface OperationsParent {

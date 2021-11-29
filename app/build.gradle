@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    compileSdk 30
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.example.app9"
@@ -73,4 +73,7 @@ dependencies {
 
     //SettingsFragment.kt
     implementation 'androidx.preference:preference-ktx:1.1.1'
+
+    //BaseNoteViewHolder.kt
+    implementation "org.ocpsoft.prettytime:prettytime:4.0.6.Final"
 }

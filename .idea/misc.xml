@@ -7,30 +7,42 @@
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/add.xml" value="0.5574358974358974" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/archive.xml" value="0.5574358974358974" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/checkbox.xml" value="0.3527777777777778" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/checkbox_16.xml" value="0.3490740740740741" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/checkbox_outline_16.xml" value="0.3490740740740741" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/delete.xml" value="0.5574358974358974" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/delete_all.xml" value="0.3527777777777778" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/drag_handle.xml" value="0.3527777777777778" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/edit.xml" value="0.3527777777777778" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/export.xml" value="0.3527777777777778" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/html.xml" value="0.3490740740740741" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/json.xml" value="0.3490740740740741" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/label.xml" value="0.5574358974358974" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/make_list.xml" value="0.3527777777777778" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/make_list_foreground.xml" value="0.3527777777777778" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/more_options.xml" value="0.3527777777777778" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/notes.xml" value="0.5574358974358974" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/pdf.xml" value="0.3490740740740741" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/pin.xml" value="0.5574358974358974" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/restore.xml" value="0.5574358974358974" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/save.xml" value="0.3490740740740741" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/search.xml" value="0.3527777777777778" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/settings.xml" value="0.5574358974358974" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/share.xml" value="0.5574358974358974" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/txt.xml" value="0.3490740740740741" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/unarchive.xml" value="0.5574358974358974" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/view.xml" value="0.3490740740740741" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/drawable/xml.xml" value="0.3490740740740741" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/activity_main.xml" value="0.2674772036474164" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/activity_make_list.xml" value="0.3120471014492754" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/activity_take_note.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/add_label.xml" value="0.3079710144927536" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/dialog_input.xml" value="0.3120471014492754" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/drawer_header.xml" value="0.55" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/fragment_notes.xml" value="0.3120471014492754" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/label.xml" value="0.55" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/list_item_preview.xml" value="0.3079710144927536" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/menu_item.xml" value="0.3120471014492754" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/recycler_base_note.xml" value="0.3079710144927536" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/recycler_label.xml" value="0.3120471014492754" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/layout/recycler_list_item.xml" value="0.3120471014492754" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/menu/archived.xml" value="0.55" />
@@ -41,8 +53,7 @@
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/menu/navigation.xml" value="0.55" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/menu/notes.xml" value="0.55" />
         <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/menu/search.xml" value="0.5494791666666666" />
-        <entry key="..\:/Users/ivxua/StudioProjects/App9/app/src/main/res/drawable/take_note.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/ivxua/StudioProjects/App9/app/src/main/res/xml/shortcuts.xml" value="0.2821557971014493" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/App9/app/src/main/res/xml/settings.xml" value="0.3079710144927536" />
       </map>
     </option>
   </component>
