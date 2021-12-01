@@ -6,8 +6,8 @@
         android:shortcutShortLabel="@string/take_note">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="com.omgodse.notally.activities.TakeNote"
-            android:targetPackage="com.omgodse.notally" />
+            android:targetClass="com.example.app9.TakeNote"
+            android:targetPackage="com.example.app9" />
     </shortcut>
 
     <shortcut
@@ -16,7 +16,7 @@
         android:shortcutShortLabel="@string/make_list">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="com.omgodse.notally.activities.MakeList"
-            android:targetPackage="com.omgodse.notally" />
+            android:targetClass="com.example.app9.MakeList"
+            android:targetPackage="com.example.app9" />
     </shortcut>
 </shortcuts>

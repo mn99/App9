@@ -21,7 +21,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
             val intent = Intent(Intent.ACTION_CREATE_DOCUMENT)
             intent.type = "text/xml"
             intent.addCategory(Intent.CATEGORY_OPENABLE)
-            intent.putExtra(Intent.EXTRA_TITLE, "Notally Backup")
+            intent.putExtra(Intent.EXTRA_TITLE, "App9 Backup")
             startActivityForResult(intent, Constants.RequestCodeExportFile)
             return@setOnPreferenceClickListener true
         }

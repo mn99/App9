@@ -196,7 +196,7 @@ class TakeNote : MainHelperActivity() {
 
 
     companion object {
-        const val EXTRA_SPANNABLE = "com.omgodse.notally.EXTRA_SPANNABLE"
+        const val EXTRA_SPANNABLE = "com.example.app9.EXTRA_SPANNABLE"
 
         fun getURLFrom(text: String): String {
             return when {
